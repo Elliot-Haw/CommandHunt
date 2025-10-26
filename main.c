@@ -1,9 +1,11 @@
-# include <stdio.h>
+#include <stdio.h>
+#include "commands.h"
 
 int main(int argc, char* argv[]){
 	if (argc == 1){
 	printf("Please provide a command or see 'commandhunt --help'\n");
 	}
+	checkCommands();
 	//else call Commands Function in here
 	return 0;
 	//Have a few cases that check if the arguments is greater than one and if it is run it in the Commands Header File
