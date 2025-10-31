@@ -4,6 +4,23 @@ CommandHunt is a command line tool that is used to visibly see all of the previo
 # Commands 
 When running CommandHunt in the Terminal there a few key Commands you need to know to get started. 
 
+## Compilation
+
+To compile CommandHunt from source:
+```bash
+gcc -o commandhunt main.c commands.c
+```
+
+For optimized build:
+```bash
+gcc -O2 -o commandhunt main.c commands.c
+```
+
+Then run:
+```bash
+./commandhunt
+```
+
 ## CommandHunt
 Running CommandHunt or CommandHunt plus any unknown argument will cause CommandHunt to throw an error, with the basic error message saying - 
 
